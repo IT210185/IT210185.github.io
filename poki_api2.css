@@ -1,0 +1,39 @@
+body {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+#erg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#erg div {
+    background-color: rgba(17, 16, 16, 0.692);
+    color: wheat;
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    border: 2px gray solid;
+    border-radius: 20px;
+}
+
+#more_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.buttons {
+    border: 3px solid gray;
+    border-radius: 20px;
+    background-color: rgba(17, 16, 16, 0.692);
+}
